@@ -4,9 +4,11 @@ import Header from "./components/Header";
 import Homepage from "./pages/Homepage";
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Homepage />
+      <div className="main">
+        <Homepage />
+      </div>
     </div>
   );
 };

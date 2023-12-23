@@ -1,6 +1,7 @@
 import React from "react";
 import ManShopping from "./../../assets/img/manShopping.jpg";
 import WomanShopping from "./../../assets/img/womanShopping.jpg";
+import "./styles.css";
 const Directory = () => {
   return (
     <div className="directory">
@@ -8,9 +9,16 @@ const Directory = () => {
         <div
           className="item"
           style={{ backgroundImage: `url(${WomanShopping})` }}
-        ></div>
+        >
+          <a href="#">Shop Womens</a>
+        </div>
 
-        <div style={{ backgroundImage: `url(${ManShopping})` }}></div>
+        <div
+          className="item"
+          style={{ backgroundImage: `url(${ManShopping})` }}
+        >
+          <a href="#">Shop Mens</a>
+        </div>
       </div>
     </div>
   );
