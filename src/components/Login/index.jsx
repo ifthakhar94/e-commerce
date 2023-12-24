@@ -31,7 +31,7 @@ const LoginForm = () => {
                 </Grid>
                 <Grid item style={{ marginTop: 10 }}>
                   <Button variant="contained" color="secondary" fullWidth>
-                    Login with Gmail
+                    Login with Google
                   </Button>
                 </Grid>
               </Grid>
@@ -43,4 +43,22 @@ const LoginForm = () => {
   };
   
   export default LoginForm;
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAHrJqFVgasjuoxn8hMccHLiFVJz_Qi8X4",
+//   authDomain: "e-commerce-website-6f164.firebaseapp.com",
+//   projectId: "e-commerce-website-6f164",
+//   storageBucket: "e-commerce-website-6f164.appspot.com",
+//   messagingSenderId: "269087172679",
+//   appId: "1:269087172679:web:73a3e9a7dbe9c48980a962"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
   
